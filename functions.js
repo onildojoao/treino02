@@ -163,7 +163,12 @@ console.log(techs)
 
 // Expressões e Operadores
 
-//let 
+let name = new String('Nildo')
+name.surName = 'Banana'
+let age = new Number(23)
+console.log(name, age)
+delete name.surName
+
 
 // Estruturas de repetição
 for (let i = 0; i < 10; i++) {
